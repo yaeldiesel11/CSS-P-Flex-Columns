@@ -1,0 +1,29 @@
+.row {
+    background-color: white;
+    display: flex;
+    width: auto;
+    height: 50px;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.col,
+.col-2,
+.col-3 {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-color: indianred;
+    color: white;
+    height: 55px;
+    margin: 5px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
